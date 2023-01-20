@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="erpbo-web:war">
+    <output-path>$PROJECT_DIR$/erpbo-web/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>erpbo-web</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="erpbo-web.war">
+      <element id="artifact" artifact-name="erpbo-web:war exploded" />
+    </root>
+  </artifact>
+</component>
